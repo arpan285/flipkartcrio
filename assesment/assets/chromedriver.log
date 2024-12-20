@@ -1,0 +1,1209 @@
+[1734699069.404][INFO]: Starting ChromeDriver 131.0.6778.204 (52183f9e99a61056f9b78535f53d256f1516f2a0-refs/branch-heads/6778_155@{#7}) on port 35776
+[1734699069.404][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1734699069.410][INFO]: ChromeDriver was started successfully on port 35776
+[1734699069.546][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--remote-allow-origins=*" ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1734699069.547][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1734699069.547][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1734699069.548][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1734699069.548][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1734699069.549][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\CODECL~3\AppData\Local\Temp\scoped_dir19924_184120170" data:,
+[1734699070.154][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1734699070.164][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "131.0.6778.205",
+      "chrome": {
+         "chromedriverVersion": "131.0.6778.204 (52183f9e99a61056f9b78535f53d256f1516f2a0-refs/branch-heads/6778_155@{#7})",
+         "userDataDir": "C:\\Users\\CODECL~3\\AppData\\Local\\Temp\\scoped_dir19924_184120170"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:59230"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "df50d28168e0968e0975e09b2a861229"
+}
+[1734699070.301][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND MaximizeWindow {
+}
+[1734699070.301][INFO]: Waiting for pending navigations...
+[1734699070.304][INFO]: Done waiting for pending navigations. Status: ok
+[1734699070.330][INFO]: Waiting for pending navigations...
+[1734699070.331][INFO]: Done waiting for pending navigations. Status: ok
+[1734699070.331][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE MaximizeWindow {
+   "height": 832,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1734699070.345][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetUrl {
+}
+[1734699070.345][INFO]: Waiting for pending navigations...
+[1734699070.346][INFO]: Done waiting for pending navigations. Status: ok
+[1734699070.351][INFO]: Waiting for pending navigations...
+[1734699070.352][INFO]: Done waiting for pending navigations. Status: ok
+[1734699070.352][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetUrl "data:,"
+[1734699070.358][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND Navigate {
+   "url": "https://www.flipkart.com/"
+}
+[1734699070.358][INFO]: Waiting for pending navigations...
+[1734699070.359][INFO]: Done waiting for pending navigations. Status: ok
+[1734699071.061][INFO]: Waiting for pending navigations...
+[1734699072.630][INFO]: Done waiting for pending navigations. Status: ok
+[1734699072.630][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE Navigate
+[1734699074.657][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Search for Products, Brands and More']"
+}
+[1734699074.658][INFO]: Waiting for pending navigations...
+[1734699074.660][INFO]: Done waiting for pending navigations. Status: ok
+[1734699074.685][INFO]: Waiting for pending navigations...
+[1734699074.686][INFO]: Done waiting for pending navigations. Status: ok
+[1734699074.686][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.F95C94DBCC67AEE54AAA175F6EB2090B.e.95"
+}
+[1734699074.691][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ClearElement {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.F95C94DBCC67AEE54AAA175F6EB2090B.e.95"
+}
+[1734699074.691][INFO]: Waiting for pending navigations...
+[1734699074.692][INFO]: Done waiting for pending navigations. Status: ok
+[1734699074.722][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1734699074.736][INFO]: Waiting for pending navigations...
+[1734699074.737][INFO]: Done waiting for pending navigations. Status: ok
+[1734699074.737][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ClearElement
+[1734699074.744][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND TypeElement {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.F95C94DBCC67AEE54AAA175F6EB2090B.e.95",
+   "text": "Washing Machine",
+   "value": [ "W", "a", "s", "h", "i", "n", "g", " ", "M", "a", "c", "h", "i", "n", "e" ]
+}
+[1734699074.744][INFO]: Waiting for pending navigations...
+[1734699074.745][INFO]: Done waiting for pending navigations. Status: ok
+[1734699074.839][INFO]: Waiting for pending navigations...
+[1734699074.845][INFO]: Done waiting for pending navigations. Status: ok
+[1734699074.845][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE TypeElement
+[1734699074.848][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@title='Search for Products, Brands and More']"
+}
+[1734699074.848][INFO]: Waiting for pending navigations...
+[1734699074.850][INFO]: Done waiting for pending navigations. Status: ok
+[1734699074.859][INFO]: Waiting for pending navigations...
+[1734699074.860][INFO]: Done waiting for pending navigations. Status: ok
+[1734699074.860][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.F95C94DBCC67AEE54AAA175F6EB2090B.e.100"
+}
+[1734699074.869][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.F95C94DBCC67AEE54AAA175F6EB2090B.e.100"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1734699074.869][INFO]: Waiting for pending navigations...
+[1734699074.870][INFO]: Done waiting for pending navigations. Status: ok
+[1734699074.879][INFO]: Waiting for pending navigations...
+[1734699074.880][INFO]: Done waiting for pending navigations. Status: ok
+[1734699074.880][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ExecuteScript true
+[1734699074.884][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.F95C94DBCC67AEE54AAA175F6EB2090B.e.100"
+   } ],
+   "script": "arguments[0].scrollIntoView(true);"
+}
+[1734699074.884][INFO]: Waiting for pending navigations...
+[1734699074.885][INFO]: Done waiting for pending navigations. Status: ok
+[1734699074.890][INFO]: Waiting for pending navigations...
+[1734699074.891][INFO]: Done waiting for pending navigations. Status: ok
+[1734699074.891][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ExecuteScript null
+[1734699076.896][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ClickElement {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.F95C94DBCC67AEE54AAA175F6EB2090B.e.100"
+}
+[1734699076.897][INFO]: Waiting for pending navigations...
+[1734699076.898][INFO]: Done waiting for pending navigations. Status: ok
+[1734699076.969][INFO]: Waiting for pending navigations...
+[1734699079.415][INFO]: Done waiting for pending navigations. Status: ok
+[1734699079.415][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ClickElement
+[1734699079.431][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[normalize-space()='Popularity']"
+}
+[1734699079.431][INFO]: Waiting for pending navigations...
+[1734699079.439][INFO]: Done waiting for pending navigations. Status: ok
+[1734699079.454][INFO]: Waiting for pending navigations...
+[1734699079.455][INFO]: Done waiting for pending navigations. Status: ok
+[1734699079.455][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.316"
+}
+[1734699079.459][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.316"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1734699079.459][INFO]: Waiting for pending navigations...
+[1734699079.460][INFO]: Done waiting for pending navigations. Status: ok
+[1734699079.467][INFO]: Waiting for pending navigations...
+[1734699079.468][INFO]: Done waiting for pending navigations. Status: ok
+[1734699079.468][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ExecuteScript true
+[1734699079.471][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND IsElementEnabled {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.316"
+}
+[1734699079.471][INFO]: Waiting for pending navigations...
+[1734699079.472][INFO]: Done waiting for pending navigations. Status: ok
+[1734699079.478][INFO]: Waiting for pending navigations...
+[1734699079.478][INFO]: Done waiting for pending navigations. Status: ok
+[1734699079.478][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE IsElementEnabled true
+[1734699079.481][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ClickElement {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.316"
+}
+[1734699079.481][INFO]: Waiting for pending navigations...
+[1734699079.482][INFO]: Done waiting for pending navigations. Status: ok
+[1734699079.577][INFO]: Waiting for pending navigations...
+[1734699079.581][INFO]: Done waiting for pending navigations. Status: ok
+[1734699079.581][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ClickElement
+[1734699084.611][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[@class='Y1HWO0']"
+}
+[1734699084.611][INFO]: Waiting for pending navigations...
+[1734699084.613][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.636][INFO]: Waiting for pending navigations...
+[1734699084.637][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.637][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.375"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.376"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.377"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.378"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.379"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.380"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.381"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.382"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.383"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.384"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.385"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.386"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.387"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.388"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.389"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.390"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.391"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.392"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.393"
+}, "..." ]
+[1734699084.642][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.375"
+}
+[1734699084.643][INFO]: Waiting for pending navigations...
+[1734699084.644][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.658][INFO]: Waiting for pending navigations...
+[1734699084.659][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.659][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.1"
+[1734699084.661][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.376"
+}
+[1734699084.662][INFO]: Waiting for pending navigations...
+[1734699084.662][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.671][INFO]: Waiting for pending navigations...
+[1734699084.672][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.672][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.3"
+[1734699084.674][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.377"
+}
+[1734699084.674][INFO]: Waiting for pending navigations...
+[1734699084.675][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.682][INFO]: Waiting for pending navigations...
+[1734699084.683][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.683][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.1"
+[1734699084.685][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.378"
+}
+[1734699084.685][INFO]: Waiting for pending navigations...
+[1734699084.686][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.693][INFO]: Waiting for pending navigations...
+[1734699084.696][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.696][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.3"
+[1734699084.708][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.379"
+}
+[1734699084.708][INFO]: Waiting for pending navigations...
+[1734699084.714][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.724][INFO]: Waiting for pending navigations...
+[1734699084.725][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.725][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.2"
+[1734699084.727][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.380"
+}
+[1734699084.728][INFO]: Waiting for pending navigations...
+[1734699084.728][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.744][INFO]: Waiting for pending navigations...
+[1734699084.745][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.745][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.1"
+[1734699084.748][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.381"
+}
+[1734699084.748][INFO]: Waiting for pending navigations...
+[1734699084.749][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.755][INFO]: Waiting for pending navigations...
+[1734699084.756][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.756][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.2"
+[1734699084.758][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.382"
+}
+[1734699084.758][INFO]: Waiting for pending navigations...
+[1734699084.759][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.767][INFO]: Waiting for pending navigations...
+[1734699084.768][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.768][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.2"
+[1734699084.770][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.383"
+}
+[1734699084.770][INFO]: Waiting for pending navigations...
+[1734699084.771][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.778][INFO]: Waiting for pending navigations...
+[1734699084.778][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.778][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.4"
+[1734699084.781][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.384"
+}
+[1734699084.781][INFO]: Waiting for pending navigations...
+[1734699084.782][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.789][INFO]: Waiting for pending navigations...
+[1734699084.790][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.790][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.3"
+[1734699084.792][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.385"
+}
+[1734699084.792][INFO]: Waiting for pending navigations...
+[1734699084.792][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.800][INFO]: Waiting for pending navigations...
+[1734699084.801][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.801][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.1"
+[1734699084.803][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.386"
+}
+[1734699084.804][INFO]: Waiting for pending navigations...
+[1734699084.804][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.811][INFO]: Waiting for pending navigations...
+[1734699084.811][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.811][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.3"
+[1734699084.815][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.387"
+}
+[1734699084.815][INFO]: Waiting for pending navigations...
+[1734699084.815][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.821][INFO]: Waiting for pending navigations...
+[1734699084.822][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.822][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.3"
+[1734699084.824][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.388"
+}
+[1734699084.824][INFO]: Waiting for pending navigations...
+[1734699084.825][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.832][INFO]: Waiting for pending navigations...
+[1734699084.833][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.833][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.2"
+[1734699084.835][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.389"
+}
+[1734699084.835][INFO]: Waiting for pending navigations...
+[1734699084.836][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.842][INFO]: Waiting for pending navigations...
+[1734699084.843][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.843][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.3"
+[1734699084.845][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.390"
+}
+[1734699084.845][INFO]: Waiting for pending navigations...
+[1734699084.846][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.855][INFO]: Waiting for pending navigations...
+[1734699084.856][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.856][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.3"
+[1734699084.858][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.391"
+}
+[1734699084.858][INFO]: Waiting for pending navigations...
+[1734699084.859][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.867][INFO]: Waiting for pending navigations...
+[1734699084.867][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.867][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.3"
+[1734699084.870][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.392"
+}
+[1734699084.870][INFO]: Waiting for pending navigations...
+[1734699084.870][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.877][INFO]: Waiting for pending navigations...
+[1734699084.877][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.877][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.3"
+[1734699084.880][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.393"
+}
+[1734699084.880][INFO]: Waiting for pending navigations...
+[1734699084.882][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.889][INFO]: Waiting for pending navigations...
+[1734699084.890][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.890][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.4"
+[1734699084.892][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.394"
+}
+[1734699084.892][INFO]: Waiting for pending navigations...
+[1734699084.893][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.901][INFO]: Waiting for pending navigations...
+[1734699084.902][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.902][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.1"
+[1734699084.905][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.395"
+}
+[1734699084.905][INFO]: Waiting for pending navigations...
+[1734699084.906][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.913][INFO]: Waiting for pending navigations...
+[1734699084.915][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.915][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.4"
+[1734699084.917][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.396"
+}
+[1734699084.917][INFO]: Waiting for pending navigations...
+[1734699084.918][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.925][INFO]: Waiting for pending navigations...
+[1734699084.925][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.925][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.3"
+[1734699084.928][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.397"
+}
+[1734699084.928][INFO]: Waiting for pending navigations...
+[1734699084.929][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.936][INFO]: Waiting for pending navigations...
+[1734699084.937][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.937][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.4"
+[1734699084.939][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.D34DF21A9F8AC16D54B9BCE1631306C8.e.398"
+}
+[1734699084.939][INFO]: Waiting for pending navigations...
+[1734699084.940][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.947][INFO]: Waiting for pending navigations...
+[1734699084.949][INFO]: Done waiting for pending navigations. Status: ok
+[1734699084.949][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "4.1"
+[1734699084.952][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND Navigate {
+   "url": "https://www.flipkart.com/"
+}
+[1734699084.952][INFO]: Waiting for pending navigations...
+[1734699084.953][INFO]: Done waiting for pending navigations. Status: ok
+[1734699085.365][INFO]: Waiting for pending navigations...
+[1734699086.388][INFO]: Done waiting for pending navigations. Status: ok
+[1734699086.388][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE Navigate
+[1734699088.390][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Search for Products, Brands and More']"
+}
+[1734699088.390][INFO]: Waiting for pending navigations...
+[1734699088.392][INFO]: Done waiting for pending navigations. Status: ok
+[1734699088.402][INFO]: Waiting for pending navigations...
+[1734699088.403][INFO]: Done waiting for pending navigations. Status: ok
+[1734699088.403][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.8A3D83CB0846873BF08BAC55CF48C198.e.444"
+}
+[1734699088.405][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ClearElement {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.8A3D83CB0846873BF08BAC55CF48C198.e.444"
+}
+[1734699088.405][INFO]: Waiting for pending navigations...
+[1734699088.406][INFO]: Done waiting for pending navigations. Status: ok
+[1734699088.445][INFO]: Waiting for pending navigations...
+[1734699088.466][INFO]: Done waiting for pending navigations. Status: ok
+[1734699088.466][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ClearElement
+[1734699088.469][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND TypeElement {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.8A3D83CB0846873BF08BAC55CF48C198.e.444",
+   "text": "iPhone",
+   "value": [ "i", "P", "h", "o", "n", "e" ]
+}
+[1734699088.469][INFO]: Waiting for pending navigations...
+[1734699088.470][INFO]: Done waiting for pending navigations. Status: ok
+[1734699088.541][INFO]: Waiting for pending navigations...
+[1734699088.545][INFO]: Done waiting for pending navigations. Status: ok
+[1734699088.545][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE TypeElement
+[1734699088.548][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@title='Search for Products, Brands and More']"
+}
+[1734699088.548][INFO]: Waiting for pending navigations...
+[1734699088.550][INFO]: Done waiting for pending navigations. Status: ok
+[1734699088.557][INFO]: Waiting for pending navigations...
+[1734699088.558][INFO]: Done waiting for pending navigations. Status: ok
+[1734699088.558][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.8A3D83CB0846873BF08BAC55CF48C198.e.479"
+}
+[1734699088.562][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.8A3D83CB0846873BF08BAC55CF48C198.e.479"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1734699088.562][INFO]: Waiting for pending navigations...
+[1734699088.566][INFO]: Done waiting for pending navigations. Status: ok
+[1734699088.571][INFO]: Waiting for pending navigations...
+[1734699088.572][INFO]: Done waiting for pending navigations. Status: ok
+[1734699088.572][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ExecuteScript true
+[1734699088.574][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.8A3D83CB0846873BF08BAC55CF48C198.e.479"
+   } ],
+   "script": "arguments[0].scrollIntoView(true);"
+}
+[1734699088.574][INFO]: Waiting for pending navigations...
+[1734699088.576][INFO]: Done waiting for pending navigations. Status: ok
+[1734699088.580][INFO]: Waiting for pending navigations...
+[1734699088.586][INFO]: Done waiting for pending navigations. Status: ok
+[1734699088.586][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ExecuteScript null
+[1734699090.599][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ClickElement {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.8A3D83CB0846873BF08BAC55CF48C198.e.479"
+}
+[1734699090.599][INFO]: Waiting for pending navigations...
+[1734699090.600][INFO]: Done waiting for pending navigations. Status: ok
+[1734699090.661][INFO]: Waiting for pending navigations...
+[1734699092.106][INFO]: Done waiting for pending navigations. Status: ok
+[1734699092.106][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ClickElement
+[1734699097.114][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='KzDlHZ']"
+}
+[1734699097.114][INFO]: Waiting for pending navigations...
+[1734699097.115][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.128][INFO]: Waiting for pending navigations...
+[1734699097.130][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.130][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.687"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.688"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.689"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.690"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.691"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.692"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.693"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.694"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.695"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.696"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.697"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.698"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.699"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.700"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.701"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.702"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.703"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.704"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.705"
+}, "..." ]
+[1734699097.133][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='UkUFwK']/span"
+}
+[1734699097.133][INFO]: Waiting for pending navigations...
+[1734699097.135][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.145][INFO]: Waiting for pending navigations...
+[1734699097.147][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.147][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.711"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.712"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.713"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.714"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.715"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.716"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.717"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.718"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.719"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.720"
+} ]
+[1734699097.150][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.711"
+}
+[1734699097.150][INFO]: Waiting for pending navigations...
+[1734699097.151][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.157][INFO]: Waiting for pending navigations...
+[1734699097.158][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.158][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "16% off"
+[1734699097.160][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.687"
+}
+[1734699097.160][INFO]: Waiting for pending navigations...
+[1734699097.161][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.169][INFO]: Waiting for pending navigations...
+[1734699097.170][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.170][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "Apple iPhone 15 (Black, 128 GB)"
+[1734699097.172][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.712"
+}
+[1734699097.172][INFO]: Waiting for pending navigations...
+[1734699097.173][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.179][INFO]: Waiting for pending navigations...
+[1734699097.181][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.181][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "16% off"
+[1734699097.183][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.688"
+}
+[1734699097.184][INFO]: Waiting for pending navigations...
+[1734699097.185][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.191][INFO]: Waiting for pending navigations...
+[1734699097.191][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.191][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "Apple iPhone 15 (Green, 128 GB)"
+[1734699097.194][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.713"
+}
+[1734699097.194][INFO]: Waiting for pending navigations...
+[1734699097.195][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.203][INFO]: Waiting for pending navigations...
+[1734699097.204][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.204][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "19% off"
+[1734699097.206][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.689"
+}
+[1734699097.206][INFO]: Waiting for pending navigations...
+[1734699097.207][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.213][INFO]: Waiting for pending navigations...
+[1734699097.214][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.214][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "Apple iPhone 15 Plus (Black, 128 GB)"
+[1734699097.217][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.714"
+}
+[1734699097.217][INFO]: Waiting for pending navigations...
+[1734699097.218][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.224][INFO]: Waiting for pending navigations...
+[1734699097.225][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.225][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "19% off"
+[1734699097.227][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.690"
+}
+[1734699097.227][INFO]: Waiting for pending navigations...
+[1734699097.228][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.236][INFO]: Waiting for pending navigations...
+[1734699097.236][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.236][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "Apple iPhone 15 Plus (Green, 128 GB)"
+[1734699097.239][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.715"
+}
+[1734699097.239][INFO]: Waiting for pending navigations...
+[1734699097.239][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.245][INFO]: Waiting for pending navigations...
+[1734699097.246][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.247][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "19% off"
+[1734699097.249][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.691"
+}
+[1734699097.249][INFO]: Waiting for pending navigations...
+[1734699097.250][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.255][INFO]: Waiting for pending navigations...
+[1734699097.256][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.256][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "Apple iPhone 15 Plus (Pink, 128 GB)"
+[1734699097.259][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.716"
+}
+[1734699097.259][INFO]: Waiting for pending navigations...
+[1734699097.259][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.267][INFO]: Waiting for pending navigations...
+[1734699097.268][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.268][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "16% off"
+[1734699097.270][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.692"
+}
+[1734699097.270][INFO]: Waiting for pending navigations...
+[1734699097.271][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.276][INFO]: Waiting for pending navigations...
+[1734699097.277][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.277][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "Apple iPhone 15 (Pink, 128 GB)"
+[1734699097.280][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.717"
+}
+[1734699097.280][INFO]: Waiting for pending navigations...
+[1734699097.281][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.288][INFO]: Waiting for pending navigations...
+[1734699097.289][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.289][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "19% off"
+[1734699097.291][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.693"
+}
+[1734699097.291][INFO]: Waiting for pending navigations...
+[1734699097.291][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.299][INFO]: Waiting for pending navigations...
+[1734699097.299][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.300][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "Apple iPhone 15 Plus (Blue, 128 GB)"
+[1734699097.302][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.718"
+}
+[1734699097.302][INFO]: Waiting for pending navigations...
+[1734699097.302][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.308][INFO]: Waiting for pending navigations...
+[1734699097.309][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.309][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "16% off"
+[1734699097.311][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.694"
+}
+[1734699097.311][INFO]: Waiting for pending navigations...
+[1734699097.314][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.320][INFO]: Waiting for pending navigations...
+[1734699097.320][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.320][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "Apple iPhone 15 (Blue, 128 GB)"
+[1734699097.322][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.719"
+}
+[1734699097.322][INFO]: Waiting for pending navigations...
+[1734699097.323][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.329][INFO]: Waiting for pending navigations...
+[1734699097.334][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.334][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "16% off"
+[1734699097.335][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.695"
+}
+[1734699097.336][INFO]: Waiting for pending navigations...
+[1734699097.336][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.342][INFO]: Waiting for pending navigations...
+[1734699097.343][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.343][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "Apple iPhone 16 (Teal, 128 GB)"
+[1734699097.344][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.720"
+}
+[1734699097.345][INFO]: Waiting for pending navigations...
+[1734699097.346][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.354][INFO]: Waiting for pending navigations...
+[1734699097.354][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.354][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "18% off"
+[1734699097.357][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.BD6B8401553E10B6B8127560D5EA893C.e.696"
+}
+[1734699097.357][INFO]: Waiting for pending navigations...
+[1734699097.358][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.365][INFO]: Waiting for pending navigations...
+[1734699097.366][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.366][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "Apple iPhone 16 (Ultramarine, 256 GB)"
+[1734699097.369][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND Navigate {
+   "url": "https://www.flipkart.com/"
+}
+[1734699097.369][INFO]: Waiting for pending navigations...
+[1734699097.370][INFO]: Done waiting for pending navigations. Status: ok
+[1734699097.829][INFO]: Waiting for pending navigations...
+[1734699098.483][INFO]: Done waiting for pending navigations. Status: ok
+[1734699098.483][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE Navigate
+[1734699100.489][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Search for Products, Brands and More']"
+}
+[1734699100.489][INFO]: Waiting for pending navigations...
+[1734699100.491][INFO]: Done waiting for pending navigations. Status: ok
+[1734699100.511][INFO]: Waiting for pending navigations...
+[1734699100.514][INFO]: Done waiting for pending navigations. Status: ok
+[1734699100.514][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.B21AB58353AA136F994E0A1786F569FF.e.764"
+}
+[1734699100.518][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ClearElement {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.B21AB58353AA136F994E0A1786F569FF.e.764"
+}
+[1734699100.518][INFO]: Waiting for pending navigations...
+[1734699100.519][INFO]: Done waiting for pending navigations. Status: ok
+[1734699100.546][INFO]: Waiting for pending navigations...
+[1734699100.547][INFO]: Done waiting for pending navigations. Status: ok
+[1734699100.547][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ClearElement
+[1734699100.550][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND TypeElement {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.B21AB58353AA136F994E0A1786F569FF.e.764",
+   "text": "Coffee Mug",
+   "value": [ "C", "o", "f", "f", "e", "e", " ", "M", "u", "g" ]
+}
+[1734699100.550][INFO]: Waiting for pending navigations...
+[1734699100.551][INFO]: Done waiting for pending navigations. Status: ok
+[1734699100.613][INFO]: Waiting for pending navigations...
+[1734699100.618][INFO]: Done waiting for pending navigations. Status: ok
+[1734699100.618][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE TypeElement
+[1734699100.621][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@title='Search for Products, Brands and More']"
+}
+[1734699100.621][INFO]: Waiting for pending navigations...
+[1734699100.622][INFO]: Done waiting for pending navigations. Status: ok
+[1734699100.629][INFO]: Waiting for pending navigations...
+[1734699100.630][INFO]: Done waiting for pending navigations. Status: ok
+[1734699100.630][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.B21AB58353AA136F994E0A1786F569FF.e.793"
+}
+[1734699100.633][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.B21AB58353AA136F994E0A1786F569FF.e.793"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1734699100.633][INFO]: Waiting for pending navigations...
+[1734699100.634][INFO]: Done waiting for pending navigations. Status: ok
+[1734699100.640][INFO]: Waiting for pending navigations...
+[1734699100.640][INFO]: Done waiting for pending navigations. Status: ok
+[1734699100.641][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ExecuteScript true
+[1734699100.644][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.B21AB58353AA136F994E0A1786F569FF.e.793"
+   } ],
+   "script": "arguments[0].scrollIntoView(true);"
+}
+[1734699100.644][INFO]: Waiting for pending navigations...
+[1734699100.644][INFO]: Done waiting for pending navigations. Status: ok
+[1734699100.649][INFO]: Waiting for pending navigations...
+[1734699100.650][INFO]: Done waiting for pending navigations. Status: ok
+[1734699100.650][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ExecuteScript null
+[1734699102.649][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ClickElement {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.B21AB58353AA136F994E0A1786F569FF.e.793"
+}
+[1734699102.649][INFO]: Waiting for pending navigations...
+[1734699102.650][INFO]: Done waiting for pending navigations. Status: ok
+[1734699102.711][INFO]: Waiting for pending navigations...
+[1734699104.146][INFO]: Done waiting for pending navigations. Status: ok
+[1734699104.146][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ClickElement
+[1734699109.167][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElement {
+   "using": "xpath",
+   "value": "(//div[@class='XqNaEv'])[1]"
+}
+[1734699109.167][INFO]: Waiting for pending navigations...
+[1734699109.169][INFO]: Done waiting for pending navigations. Status: ok
+[1734699109.198][INFO]: Waiting for pending navigations...
+[1734699109.201][INFO]: Done waiting for pending navigations. Status: ok
+[1734699109.201][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.892"
+}
+[1734699109.205][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.892"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1734699109.205][INFO]: Waiting for pending navigations...
+[1734699109.206][INFO]: Done waiting for pending navigations. Status: ok
+[1734699109.214][INFO]: Waiting for pending navigations...
+[1734699109.215][INFO]: Done waiting for pending navigations. Status: ok
+[1734699109.215][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ExecuteScript true
+[1734699109.217][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND IsElementEnabled {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.892"
+}
+[1734699109.217][INFO]: Waiting for pending navigations...
+[1734699109.218][INFO]: Done waiting for pending navigations. Status: ok
+[1734699109.223][INFO]: Waiting for pending navigations...
+[1734699109.223][INFO]: Done waiting for pending navigations. Status: ok
+[1734699109.223][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE IsElementEnabled true
+[1734699109.225][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ClickElement {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.892"
+}
+[1734699109.225][INFO]: Waiting for pending navigations...
+[1734699109.226][INFO]: Done waiting for pending navigations. Status: ok
+[1734699109.341][INFO]: Waiting for pending navigations...
+[1734699109.345][INFO]: Done waiting for pending navigations. Status: ok
+[1734699109.345][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ClickElement
+[1734699114.361][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[@class='wjcEIp']"
+}
+[1734699114.361][INFO]: Waiting for pending navigations...
+[1734699114.362][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.375][INFO]: Waiting for pending navigations...
+[1734699114.376][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.376][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.926"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.927"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.928"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.929"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.872"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.930"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.931"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.932"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.933"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.934"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.935"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.936"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.937"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.938"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.939"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.940"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.941"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.942"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.943"
+}, "..." ]
+[1734699114.382][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//span[@class='Wphh3N']"
+}
+[1734699114.382][INFO]: Waiting for pending navigations...
+[1734699114.383][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.394][INFO]: Waiting for pending navigations...
+[1734699114.395][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.395][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.965"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.966"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.967"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.968"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.969"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.970"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.971"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.972"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.973"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.974"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.975"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.976"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.977"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.978"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.979"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.980"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.981"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.982"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.983"
+}, "..." ]
+[1734699114.399][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//img[@class='DByuf4']"
+}
+[1734699114.399][INFO]: Waiting for pending navigations...
+[1734699114.400][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.413][INFO]: Waiting for pending navigations...
+[1734699114.414][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.414][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1005"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.889"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1006"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.867"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1007"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1008"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1009"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1010"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1011"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1012"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1013"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1014"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1015"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1016"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1017"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1018"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1019"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1020"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1021"
+}, "..." ]
+[1734699114.418][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.926"
+}
+[1734699114.418][INFO]: Waiting for pending navigations...
+[1734699114.419][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.425][INFO]: Waiting for pending navigations...
+[1734699114.426][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.426][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "Thiwa Coffee and TeaMug gift for Birthday,Couple,Friend..."
+[1734699114.429][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.965"
+}
+[1734699114.429][INFO]: Waiting for pending navigations...
+[1734699114.430][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.436][INFO]: Waiting for pending navigations...
+[1734699114.436][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.437][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "(7,371)"
+[1734699114.441][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1005"
+   }, "src" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1734699114.441][INFO]: Waiting for pending navigations...
+[1734699114.441][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.447][INFO]: Waiting for pending navigations...
+[1734699114.447][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.447][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ExecuteScript "https://rukminim2.flixcart.com/image/612/612/xif0q/mug/f/v/9/coffee-and-teamug-gift-for-birthday-couple-friends-lover-original-imah6g3j4gfdqcgh.jpeg?q=70"
+[1734699114.450][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.927"
+}
+[1734699114.450][INFO]: Waiting for pending navigations...
+[1734699114.450][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.456][INFO]: Waiting for pending navigations...
+[1734699114.457][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.457][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "Thiwa Double Wall Stainless Steel Tea Coffee Solid Morn..."
+[1734699114.459][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.966"
+}
+[1734699114.459][INFO]: Waiting for pending navigations...
+[1734699114.460][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.466][INFO]: Waiting for pending navigations...
+[1734699114.466][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.466][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "(1,387)"
+[1734699114.469][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.889"
+   }, "src" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1734699114.469][INFO]: Waiting for pending navigations...
+[1734699114.470][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.475][INFO]: Waiting for pending navigations...
+[1734699114.475][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.475][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ExecuteScript "https://rukminim2.flixcart.com/image/612/612/xif0q/mug/w/b/t/double-wall-stainless-steel-tea-coffee-mug-solid-morning-use-original-imah4bykrxh2veez.jpeg?q=70"
+[1734699114.482][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.928"
+}
+[1734699114.482][INFO]: Waiting for pending navigations...
+[1734699114.483][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.489][INFO]: Waiting for pending navigations...
+[1734699114.489][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.489][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "SPEACK Coffee Lover's 1st Preferable Choice Sipper Lid ..."
+[1734699114.491][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.967"
+}
+[1734699114.491][INFO]: Waiting for pending navigations...
+[1734699114.491][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.497][INFO]: Waiting for pending navigations...
+[1734699114.498][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.498][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "(8,068)"
+[1734699114.500][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1006"
+   }, "src" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1734699114.500][INFO]: Waiting for pending navigations...
+[1734699114.501][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.505][INFO]: Waiting for pending navigations...
+[1734699114.506][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.506][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ExecuteScript "https://rukminim2.flixcart.com/image/612/612/xif0q/mug/e/c/h/coffee-lover-s-1st-preferable-choice-sipper-lid-400-1-speack-original-imagxfbmggzjrgrg.jpeg?q=70"
+[1734699114.508][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.929"
+}
+[1734699114.508][INFO]: Waiting for pending navigations...
+[1734699114.509][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.516][INFO]: Waiting for pending navigations...
+[1734699114.517][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.517][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "Papita Moti Glass Glass Coffee Mug"
+[1734699114.519][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.968"
+}
+[1734699114.519][INFO]: Waiting for pending navigations...
+[1734699114.520][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.527][INFO]: Waiting for pending navigations...
+[1734699114.527][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.527][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "(241)"
+[1734699114.530][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.867"
+   }, "src" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1734699114.531][INFO]: Waiting for pending navigations...
+[1734699114.532][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.535][INFO]: Waiting for pending navigations...
+[1734699114.536][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.536][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ExecuteScript "https://rukminim2.flixcart.com/image/612/612/xif0q/mug/k/r/0/moti-glass-350-1-papita-original-imah7m4d8xqjdr6g.jpeg?q=70"
+[1734699114.539][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.872"
+}
+[1734699114.539][INFO]: Waiting for pending navigations...
+[1734699114.540][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.548][INFO]: Waiting for pending navigations...
+[1734699114.548][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.548][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "OFFYX Stainless Steel Tea Cup Stainless Steel Coffee wi..."
+[1734699114.551][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND GetElementText {
+   "id": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.969"
+}
+[1734699114.551][INFO]: Waiting for pending navigations...
+[1734699114.552][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.559][INFO]: Waiting for pending navigations...
+[1734699114.560][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.560][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE GetElementText "(1,356)"
+[1734699114.563][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.D8A8BFA1409DBFD8D603E559381E6C4B.d.C47AC1550E343B181F25A2FAC5A90A24.e.1007"
+   }, "src" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1734699114.563][INFO]: Waiting for pending navigations...
+[1734699114.564][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.569][INFO]: Waiting for pending navigations...
+[1734699114.570][INFO]: Done waiting for pending navigations. Status: ok
+[1734699114.570][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE ExecuteScript "https://rukminim2.flixcart.com/image/612/612/l2tcfbk0/mug/s/2/e/stainless-steel-tea-cup-stainless-steel-coffee-mug-with-lid-300-original-image2pcgyhtqdzg.jpeg?q=70"
+[1734699114.574][INFO]: [df50d28168e0968e0975e09b2a861229] COMMAND CloseWindow {
+}
+[1734699114.671][INFO]: [df50d28168e0968e0975e09b2a861229] RESPONSE CloseWindow [  ]
